@@ -4,8 +4,9 @@ const addTaskBtn = document.querySelector(".add-task-btn");
 
 const todoList = document.querySelector(".todo-list");
 
+const basedImage = document.querySelector(".based-image");
+
 addTaskBtn.addEventListener("click", () => {
-  const basedImage = document.querySelector(".based-image");
   basedImage.style.display = "block";
 
   const liElement = document.createElement("li");
