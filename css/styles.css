@@ -43,6 +43,11 @@ body {
   left: 0;
 }
 
+.subtitle {
+  font-size: 32px;
+  color: rgb(115, 14, 14);
+}
+
 .add-task-input {
   height: 30px;
   width: calc(100% - 85px);
