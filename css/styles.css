@@ -37,15 +37,19 @@ body {
   z-index: -1;
 
   background-image: url(../img/noway.png);
-  background-size: 50%;
+  background-size: 34%;
 
   top: 0;
   left: 0;
 }
 
 .subtitle {
+  max-width: 294px;
+  display: inline-block;
+
   font-size: 32px;
   color: rgb(115, 14, 14);
+  background-color: #ffffff65;
 }
 
 .add-task-input {
@@ -99,4 +103,20 @@ body {
   border-radius: 5px;
   background-color: rgb(225, 225, 129);
   z-index: 2;
+}
+
+@media screen and (max-width: 767px) {
+  .todo-container {
+    padding: 50px 20px;
+  }
+
+  .based-image {
+    background-size: 100%;
+  }
+
+  .subtitle {
+    max-width: 222px;
+    font-size: 24px;
+    background-color: #ffffff65;
+  }
 }

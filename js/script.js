@@ -23,5 +23,6 @@ addTaskBtn.addEventListener("click", () => {
 
   deleteBtn.addEventListener("click", () => {
     todoList.removeChild(liElement);
+    basedImage.style.display = "none";
   });
 });
